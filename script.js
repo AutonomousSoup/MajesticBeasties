@@ -10,6 +10,11 @@ function staticLoadPlaces() {
             location: {
                 lat: 39.807403,
                 lng: -105.1066347,
+                 
+            name: 'goose',
+            location: {
+                lat: 39.8074909,
+                lng: -105.1066578
             }
         },
     ];
