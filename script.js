@@ -1,4 +1,4 @@
-﻿window.onload = () => {
+window.onload = () => {
      let places = staticLoadPlaces();
      renderPlaces(places);
 };
@@ -6,11 +6,10 @@
 function staticLoadPlaces() {
     return [
         {
-            name: 'majesticbeasties',
+            name: 'cuppycake',
             location: {
-                lat: 39.8073678,
-                lng: -105.1065006,
-           
+                lat: 39.807403,
+                lng: -105.1066347,
             }
         },
     ];
@@ -25,7 +24,7 @@ function renderPlaces(places) {
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-        model.setAttribute('gltf-model', './assets/cuppycake/scene.gltf');
+        model.setAttribute('gltf-model', './assets/cuppycake.gltf');
         model.setAttribute('rotation', '0 180 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.5 0.5 0.5');
