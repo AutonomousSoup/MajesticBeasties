@@ -20,11 +20,10 @@ n<!doctype html>
             loading-screen="enabled: false;"
             arjs="sourceType: webcam; debugUIEnabled: false;"
         >
-                <a-entity
-                    src="assets/cuppycake.gif"
-                    look-at="[gps-camera]"
-                    scale=".25 .25 .25"
-                    gps-entity-place="latitude: 39.8074515; longitude: -105.1068094; animation-mixer/"
+               <a-entity gltf-model="./assets/flyingfish.gltf"
+                    rotation="0 180 0"
+                    scale="1 1 1"
+                    gps-entity-place="latitude: 39.8078579; longitude: -105.1067882;" animation-mixer/
                 ></a-entity>
                 <a-entity gltf-model="./assets/goose.gltf"
                     rotation="0 180 0"
